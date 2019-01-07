@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D07140432043A4D000D69273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D07140422043A4D000D69273 /* main.m */; };
+		D071404B2043A51600D69273 /* NSObject+PHOAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = D071404A2043A51600D69273 /* NSObject+PHOAssociation.m */; };
+		D071404E2043AE0000D69273 /* NSObject+PHODealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = D071404D2043AE0000D69273 /* NSObject+PHODealloc.m */; };
+		D07140512043AFEB00D69273 /* PHODeallocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D07140502043AFEB00D69273 /* PHODeallocTask.m */; };
+		D07140572043BD3300D69273 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D07140562043BD3300D69273 /* Person.m */; };
+		D071405A2043BD4300D69273 /* Person+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D07140592043BD4300D69273 /* Person+Test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D071403D2043A4D000D69273 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D071403F2043A4D000D69273 /* PHOAssociation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PHOAssociation; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07140422043A4D000D69273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D07140492043A51600D69273 /* NSObject+PHOAssociation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PHOAssociation.h"; sourceTree = "<group>"; };
+		D071404A2043A51600D69273 /* NSObject+PHOAssociation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PHOAssociation.m"; sourceTree = "<group>"; };
+		D071404C2043AE0000D69273 /* NSObject+PHODealloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PHODealloc.h"; sourceTree = "<group>"; };
+		D071404D2043AE0000D69273 /* NSObject+PHODealloc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PHODealloc.m"; sourceTree = "<group>"; };
+		D071404F2043AFEB00D69273 /* PHODeallocTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHODeallocTask.h; sourceTree = "<group>"; };
+		D07140502043AFEB00D69273 /* PHODeallocTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHODeallocTask.m; sourceTree = "<group>"; };
+		D07140552043BD3300D69273 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D07140562043BD3300D69273 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D07140582043BD4300D69273 /* Person+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Test.h"; sourceTree = "<group>"; };
+		D07140592043BD4300D69273 /* Person+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Test.m"; sourceTree = "<group>"; };
+		D071405B2043C4EC00D69273 /* PHOAssociation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHOAssociation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D071403C2043A4D000D69273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D07140362043A4D000D69273 = {
+			isa = PBXGroup;
+			children = (
+				D07140422043A4D000D69273 /* main.m */,
+				D07140582043BD4300D69273 /* Person+Test.h */,
+				D07140592043BD4300D69273 /* Person+Test.m */,
+				D07140552043BD3300D69273 /* Person.h */,
+				D07140562043BD3300D69273 /* Person.m */,
+				D07140412043A4D000D69273 /* PHOAssociation */,
+				D07140402043A4D000D69273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D07140402043A4D000D69273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D071403F2043A4D000D69273 /* PHOAssociation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D07140412043A4D000D69273 /* PHOAssociation */ = {
+			isa = PBXGroup;
+			children = (
+				D07140492043A51600D69273 /* NSObject+PHOAssociation.h */,
+				D071404A2043A51600D69273 /* NSObject+PHOAssociation.m */,
+				D071404C2043AE0000D69273 /* NSObject+PHODealloc.h */,
+				D071404D2043AE0000D69273 /* NSObject+PHODealloc.m */,
+				D071404F2043AFEB00D69273 /* PHODeallocTask.h */,
+				D07140502043AFEB00D69273 /* PHODeallocTask.m */,
+				D071405B2043C4EC00D69273 /* PHOAssociation.h */,
+			);
+			path = PHOAssociation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D071403E2043A4D000D69273 /* PHOAssociation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07140462043A4D000D69273 /* Build configuration list for PBXNativeTarget "PHOAssociation" */;
+			buildPhases = (
+				D071403B2043A4D000D69273 /* Sources */,
+				D071403C2043A4D000D69273 /* Frameworks */,
+				D071403D2043A4D000D69273 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHOAssociation;
+			productName = PHOAssociation;
+			productReference = D071403F2043A4D000D69273 /* PHOAssociation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D07140372043A4D000D69273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Phoenix;
+				TargetAttributes = {
+					D071403E2043A4D000D69273 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D071403A2043A4D000D69273 /* Build configuration list for PBXProject "PHOAssociation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D07140362043A4D000D69273;
+			productRefGroup = D07140402043A4D000D69273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D071403E2043A4D000D69273 /* PHOAssociation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D071403B2043A4D000D69273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D071405A2043BD4300D69273 /* Person+Test.m in Sources */,
+				D071404E2043AE0000D69273 /* NSObject+PHODealloc.m in Sources */,
+				D07140512043AFEB00D69273 /* PHODeallocTask.m in Sources */,
+				D07140572043BD3300D69273 /* Person.m in Sources */,
+				D07140432043A4D000D69273 /* main.m in Sources */,
+				D071404B2043A51600D69273 /* NSObject+PHOAssociation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D07140442043A4D000D69273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D07140452043A4D000D69273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D07140472043A4D000D69273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TCNQ547JF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D07140482043A4D000D69273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TCNQ547JF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D071403A2043A4D000D69273 /* Build configuration list for PBXProject "PHOAssociation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07140442043A4D000D69273 /* Debug */,
+				D07140452043A4D000D69273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07140462043A4D000D69273 /* Build configuration list for PBXNativeTarget "PHOAssociation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07140472043A4D000D69273 /* Debug */,
+				D07140482043A4D000D69273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D07140372043A4D000D69273 /* Project object */;
+}
